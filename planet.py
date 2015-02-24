@@ -19,12 +19,17 @@ import colony
 
 
 class Planet():
-    def __init__(self):
+    def __init__(self, i_name='planet'):
 
         # variables
+        """
+        :param i_name: the name of the planet
+        :type i_name: string
+        """
         self.m_type = "terra"
         self.m_colony = None
         self.m_sizeSupport = 3
+        self.m_name = i_name
 
     def colonize(self, i_level, i_pop_boost):
         if self.m_colony is None:

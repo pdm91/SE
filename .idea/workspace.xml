@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d11b2cca-8557-4fc1-bfcd-d5852afd80b8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colony.py" afterPath="$PROJECT_DIR$/colony.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/planet.py" afterPath="$PROJECT_DIR$/planet.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Code.iws" />
@@ -38,22 +37,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="planet.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="planet.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/planet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.4831081" vertical-offset="139" max-vertical-offset="731">
+              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colony.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="colony.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colony.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5692568" vertical-offset="904" max-vertical-offset="1938">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1938">
               <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1424795781658" expanded="true" signature="397:3302" placeholder="..." />
+                <marker date="1424795781658" expanded="true" signature="639:1070" placeholder="..." />
+                <marker date="1424795781658" expanded="true" signature="1303:1883" placeholder="..." />
+                <marker date="1424795781658" expanded="true" signature="1908:2295" placeholder="..." />
+                <marker date="1424795781658" expanded="true" signature="3136:3302" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SEWin.py" />
-        <option value="$PROJECT_DIR$/planet.py" />
         <option value="$PROJECT_DIR$/colony.py" />
+        <option value="$PROJECT_DIR$/planet.py" />
       </list>
     </option>
   </component>
@@ -313,14 +318,26 @@
       <option name="project" value="LOCAL" />
       <updated>1424793443869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updating commenting">
+      <created>1424795801380</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1424795801381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updating commenting and colonizing code">
+      <created>1424797445687</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1424797445687</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -358,7 +375,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="updating commenting" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating commenting" />
+    <MESSAGE value="updating commenting and colonizing code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating commenting and colonizing code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -373,6 +391,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/colony.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1142" max-vertical-offset="1938">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding>
+            <marker date="1424795781658" expanded="true" signature="397:3302" placeholder="..." />
+            <marker date="1424795781658" expanded="true" signature="639:1070" placeholder="..." />
+            <marker date="1424795781658" expanded="true" signature="1303:1883" placeholder="..." />
+            <marker date="1424795781658" expanded="true" signature="1908:2295" placeholder="..." />
+            <marker date="1424795781658" expanded="true" signature="3136:3302" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SEWin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
@@ -383,16 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/planet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colony.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5692568" vertical-offset="904" max-vertical-offset="1938">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4831081" vertical-offset="139" max-vertical-offset="731">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding />
         </state>
       </provider>
