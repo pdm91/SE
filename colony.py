@@ -8,7 +8,7 @@ SE - colony.py
 
 Created by Peter May on 2015-02-19.
 
-This file contains the initial code for a planet
+This file contains the initial code for a colony
 
 written by -        Peter May a-pemay@microsoft.com
 
@@ -31,6 +31,7 @@ class Colony():
         self.m_population = i_population
         self.m_level = i_level
         self.m_production = 0.0
+        self.m_tax = 0.0
 
     # ==============================================================================
     # Behaviour
@@ -53,6 +54,9 @@ class Colony():
         # set the production output
         self.m_production = float(self.m_population) / 10.0
 
+        # set the tax output
+        self.m_tax = float(self.m_population) / 100.0
+
     def simulate(self):
         """
         simulate the colony, grow naturally and produce money
@@ -65,13 +69,16 @@ class Colony():
         # set the production output
         self.m_production = float(self.m_population) / 10.0
 
+        # set the tax output
+        self.m_tax = float(self.m_population) / 100.0
+
     # ==============================================================================
     #  Get/Set
     # ==============================================================================
     @property
     def level(self):
         """
-        :return: self.m_level - the level of the colony, int that relates to a flavour 'size'
+        :return: self.m_level - the level of the colony, an int that relates to a flavour 'size'
         (outpost, colony, settlement)
         :rtype : int
         """
