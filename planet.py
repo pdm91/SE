@@ -34,5 +34,7 @@ class Planet():
     def colonize(self, i_level, i_pop_boost):
         if self.m_colony is None:
             self.m_colony = colony.Colony(i_population=i_pop_boost, i_level=i_level)
+        elif i_level > self.m_sizeSupport:
+            self.m_colony.colonize(i_pop_boost, self.m_sizeSupport)
         else:
             self.m_colony.colonize(i_pop_boost, i_level)

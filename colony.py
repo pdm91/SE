@@ -2,7 +2,6 @@
 # This file contains the main windowing code for SE
 # ==============================================================================
 
-
 """
 SE - colony.py
 
@@ -63,8 +62,7 @@ class Colony():
 
         """
         # increase population
-        pop_fl = float(self.m_population) * 1.1
-        self.m_population *= int(pop_fl)
+        self.grow_population()
 
         # set the production output
         self.m_production = float(self.m_population) / 10.0
@@ -72,9 +70,30 @@ class Colony():
         # set the tax output
         self.m_tax = float(self.m_population) / 100.0
 
+    def grow_population(self):
+        """
+        grow the population of the colony
+        """
+        # set the new pop to the old one
+        new_pop = float(self.m_population)
+
+        # then multiply it by a value between 1 and 1.2
+        new_pop *= 1.2-(float(self.m_population)/float(self.sustainable_pop))/5.0
+
+        # and set it
+        self.m_population = int(new_pop)
+
     # ==============================================================================
     #  Get/Set
     # ==============================================================================
+    @property
+    def sustainable_pop(self):
+        """
+        :return: the maximum population supported by the colony
+        :rtype : int
+        """
+        return self.m_level*self.m_level*100000
+
     @property
     def level(self):
         """
