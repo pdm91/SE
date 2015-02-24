@@ -14,6 +14,9 @@ written by -        Peter May a-pemay@microsoft.com
 
 """
 
+# local imports
+import colony
+
 
 class Planet():
     def __init__(self):
@@ -24,4 +27,7 @@ class Planet():
         self.m_sizeSupport = 3
 
     def colonize(self, i_level, i_pop_boost):
-        pass
+        if self.m_colony is None:
+            self.m_colony = colony.Colony(i_population=i_pop_boost, i_level=i_level)
+        else:
+            self.m_colony.colonize(i_pop_boost, i_level)
