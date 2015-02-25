@@ -16,17 +16,18 @@ written by -        Peter May a-pemay@microsoft.com
 
 # local imports
 import colony
+import segment
 
 
-class Planet():
-    def __init__(self, i_name='planet'):
-
-        # variables
+class Planet(segment.Segment):
+    def __init__(self, i_name='Earth'):
         """
         :param i_name: the name of the planet
         :type i_name: string
         """
-        self.m_type = "terra"
+        super(Planet, self).__init__(i_type='planet')
+        # variables
+        self.m_terrain = 'terra'
         self.m_colony = None
         self.m_sizeSupport = 3
         self.m_name = i_name
