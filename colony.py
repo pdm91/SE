@@ -1,13 +1,12 @@
 # ==============================================================================
-# This file contains the main windowing code for SE
+# This file contains the main code for a colony, a group of people that live
+# in a habitable segment and provide finances to the empire
 # ==============================================================================
 
 """
 SE - colony.py
 
 Created by Peter May on 2015-02-19.
-
-This file contains the initial code for a colony
 
 written by -        Peter May a-pemay@microsoft.com
 
@@ -59,7 +58,6 @@ class Colony():
     def simulate(self):
         """
         simulate the colony, grow naturally and produce money
-
         """
         # increase population
         self.grow_population()
@@ -84,7 +82,7 @@ class Colony():
         self.m_population = int(new_pop)
 
     # ==============================================================================
-    #  Get/Set
+    #  Properties
     # ==============================================================================
     @property
     def sustainable_pop(self):
