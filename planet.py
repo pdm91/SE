@@ -5,7 +5,7 @@
 
 
 """
-SE - planet.py
+SE - Planet.py
 
 Created by Peter May on 2015-02-19.
 
@@ -14,11 +14,11 @@ written by -        Peter May a-pemay@microsoft.com
 """
 
 # local imports
-import colony
-import segment
+import Colony
+import Segment
 
 
-class Planet(segment.Segment):
+class Planet(Segment.Segment):
     # ==============================================================================
     # Initialisation
     # ==============================================================================
@@ -31,7 +31,7 @@ class Planet(segment.Segment):
         super(Planet, self).__init__(i_type='planet')
         # variables
         self.m_terrain = 'terra'
-        self.m_colony = colony.Colony(i_population=0, i_level=0)
+        self.m_colony = Colony.Colony(i_population=0, i_level=0)
         self.m_sizeSupport = 3
         self.m_name = i_name
 

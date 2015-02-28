@@ -5,7 +5,7 @@
 
 
 """
-SE - segment.py
+SE - Segment.py
 
 Created by Peter May on 2015-02-25.
 

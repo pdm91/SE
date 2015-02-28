@@ -15,8 +15,7 @@ written by -        Peter May a-pemay@microsoft.com
 """
 
 # local imports
-import planet
-import colony
+import Planet
 
 # libraries
 import pyglet
@@ -27,7 +26,7 @@ class SEWindow(pyglet.window.Window):
         super(SEWindow, self).__init__(caption='Space Empires...ish')
 
         self.m_label = pyglet.text.Label('Space Empires...ish')
-        self.m_planet = planet.Planet(i_name='earth')
+        self.m_planet = Planet.Planet(i_name='earth')
         self.m_level = 1
 
     def on_key_press(self, symbol, modifiers):
@@ -37,7 +36,7 @@ class SEWindow(pyglet.window.Window):
 
         if symbol == pyglet.window.key.S:
             self.m_planet.m_colony.simulate()
-            
+
         self.m_label.text = 'Planet: '+self.m_planet.m_name+' '+str(self.m_planet.m_colony.population)+' Level: '+str(self.m_planet.m_colony.level)
         self.on_draw()
 
